@@ -19,6 +19,7 @@ namespace Code_Rangers_Ehandel
         public void hej()
         {
             string hej = "hej";
+            int siffra = 123;
         }
     }
 }
