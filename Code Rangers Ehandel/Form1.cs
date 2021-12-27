@@ -12,9 +12,16 @@ namespace Code_Rangers_Ehandel
 {
     public partial class Form1 : Form
     {
+        EverythingFacade everythingFacade;
+        Categories categories;
+        Images images;
+        Lights lights;
+        User user;
+
         public Form1()
         {
             InitializeComponent();
+            everythingFacade = new EverythingFacade(categories, images, lights, user);
         }
 
         private void login(object sender, EventArgs e)
@@ -27,6 +34,7 @@ namespace Code_Rangers_Ehandel
         {
             Register register = new Register();
             register.Show();
+            MessageBox.Show(everythingFacade.StartApp("Ted"));
         }
 
         private void Books_click(object sender, EventArgs e)

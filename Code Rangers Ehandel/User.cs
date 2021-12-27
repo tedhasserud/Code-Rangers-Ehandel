@@ -17,16 +17,29 @@ namespace Code_Rangers_Ehandel
 
         private User(string username, string password)
         {
-            username = Username;
-            password = Password;
+          
+            Username = username;
+            Password = password;
+        }
+        public User(string username)
+        {
+            Username = username;
         }
         private User(string username, string password, string name, string address, string email)
         {
-            username = Username;
-            password = Password;
-            name = Name;
-            address = Address;
-            email = Email;
+            Username = username;
+            Password = password;
+            Name = name;
+            Address = address;
+            Email = email;
+        }
+        public static User getUser(string username)
+        {
+            if (user == null)
+            {
+                user = new User(username);
+            }
+            return user;
         }
         public static User getInstance(string username, string password)
         {
@@ -44,5 +57,6 @@ namespace Code_Rangers_Ehandel
             }
             return user;
         }
+     
     }
 }
