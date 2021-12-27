@@ -16,11 +16,6 @@ namespace Code_Rangers_Ehandel
         {
             InitializeComponent();
         }
-        public void hej()
-        {
-            string hej = "hej";
-            int siffra = 123;
-        }
 
         private void login(object sender, EventArgs e)
         {
