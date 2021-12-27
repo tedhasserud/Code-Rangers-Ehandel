@@ -303,6 +303,7 @@ namespace Code_Rangers_Ehandel
             this.label8.Size = new System.Drawing.Size(45, 21);
             this.label8.TabIndex = 29;
             this.label8.Text = "login";
+            this.label8.Click += new System.EventHandler(this.login);
             // 
             // panel1
             // 
