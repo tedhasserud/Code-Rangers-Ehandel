@@ -16,5 +16,11 @@ namespace Code_Rangers_Ehandel
         {
             InitializeComponent();
         }
+
+        private void Register_click(object sender, EventArgs e)
+        {
+            User.getInstance(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text);
+
+        }
     }
 }

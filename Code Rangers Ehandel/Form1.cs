@@ -21,5 +21,24 @@ namespace Code_Rangers_Ehandel
             string hej = "hej";
             int siffra = 123;
         }
+
+        private void login(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+        }
+
+        private void register_Click(object sender, EventArgs e)
+        {
+            Register register = new Register();
+            register.Show();
+        }
+
+        private void Books_click(object sender, EventArgs e)
+        {
+            BooksForm BooksForm = new BooksForm();
+            BooksForm.Show();
+
+        }
     }
 }

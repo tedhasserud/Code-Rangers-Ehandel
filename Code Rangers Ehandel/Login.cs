@@ -16,5 +16,10 @@ namespace Code_Rangers_Ehandel
         {
             InitializeComponent();
         }
+
+        private void Login_click(object sender, EventArgs e)
+        {
+            User.getInstance(textBox1.Text, textBox2.Text);
+        }
     }
 }

@@ -54,12 +54,6 @@
       <DependentUpon>BooksForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CartBuilder.cs" />
-    <Compile Include="eVerythingForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="eVerythingForm.Designer.cs">
-      <DependentUpon>eVerythingForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,8 +80,8 @@
     <EmbeddedResource Include="BooksForm.resx">
       <DependentUpon>BooksForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="eVerythingForm.resx">
-      <DependentUpon>eVerythingForm.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

@@ -16,5 +16,22 @@ namespace Code_Rangers_Ehandel
         {
             InitializeComponent();
         }
+
+        private void login_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+        }
+
+        private void register_click(object sender, EventArgs e)
+        {
+            Register register = new Register();
+            register.Show();
+        }
+
+        private void home_click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
