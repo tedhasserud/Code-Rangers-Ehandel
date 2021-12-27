@@ -54,12 +54,16 @@
       <DependentUpon>BooksForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CartBuilder.cs" />
+    <Compile Include="Categories.cs" />
+    <Compile Include="EverythingFacade.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Images.cs" />
+    <Compile Include="Lights.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
