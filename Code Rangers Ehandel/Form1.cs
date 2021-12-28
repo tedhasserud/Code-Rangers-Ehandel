@@ -18,7 +18,7 @@ namespace Code_Rangers_Ehandel
         Lights lights;
         User user;
 
-        public Form1()
+        public Form1(Categories categories, Images images, Lights lights, User user)
         {
             InitializeComponent();
             everythingFacade = new EverythingFacade(categories, images, lights, user);
