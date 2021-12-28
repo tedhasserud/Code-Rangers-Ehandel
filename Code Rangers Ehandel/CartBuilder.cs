@@ -8,7 +8,7 @@ namespace Code_Rangers_Ehandel
 {
     public class CartBuilder
     {
-        public static ShoppingCart BookCart()
+        public static ShoppingCart Cart()
         {
             List<Product> products = new List<Product>();
             ShoppingCart cart = new ShoppingCart();
