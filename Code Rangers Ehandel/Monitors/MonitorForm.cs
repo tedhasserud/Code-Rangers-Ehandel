@@ -43,8 +43,22 @@ namespace Code_Rangers_Ehandel
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Monitor xiaomi = new Monitor("Mi Curved Gaming Monitor 34", "Monitor", "Xiaomi", 500, "34", "144", true);
+            Monitor xiaomi = new Monitor("Mi Curved Gaming Monitor", "Monitor", "Xiaomi", 500, "34", "144", true);
             User.getUser().BuyItem(xiaomi);
+            MessageBox.Show("In your cart is: " + User.getUser().ShowItems());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Monitor lg = new Monitor("UltraGear 38GN950", "Monitor", "LG", 1200, "38", "160", true);
+            User.getUser().BuyItem(lg);
+            MessageBox.Show("In your cart is: " + User.getUser().ShowItems());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Monitor samsung = new Monitor("Samsung Odyssey C32G55", "Monitor", "Samsung", 1200, "32", "144", true);
+            User.getUser().BuyItem(samsung);
             MessageBox.Show("In your cart is: " + User.getUser().ShowItems());
         }
     }
