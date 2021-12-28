@@ -34,7 +34,7 @@
             // 
             // listBox1
             // 
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.listBox1.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(32, 37);
             this.listBox1.Margin = new System.Windows.Forms.Padding(4);
