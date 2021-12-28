@@ -17,7 +17,5 @@ namespace Code_Rangers_Ehandel
         {
             Console.WriteLine("Loading background image..");
         }
-
-
     }
 }

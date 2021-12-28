@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,21 +25,20 @@ namespace Code_Rangers_Ehandel
         }
 
         public void BuyItem(Product product)
-        { 
-             ActiveCart.Add(product);
-        }
-
-        public string showItems()
         {
-            foreach (Product product in user.ActiveCart)
-            {
-                return "Product: " + product.Name;
-            }
-            return "empty";
+            ActiveCart.Add(product);
         }
 
+        public string ShowItems()
+        {
+            StringBuilder sb = new StringBuilder(); 
 
-
+            foreach (Product product in ActiveCart)
+            {
+                sb.Append(product.Name + "\n");  
+            }
+            return sb.ToString();
+        }
 
         private User(string username, string password)
         {
