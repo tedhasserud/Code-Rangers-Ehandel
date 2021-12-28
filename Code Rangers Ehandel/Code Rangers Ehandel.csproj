@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bicycles\Bicycle.cs" />
+    <Compile Include="Bicycles\BicycleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bicycles\BicycleForm.Designer.cs">
+      <DependentUpon>BicycleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Book.cs" />
     <Compile Include="BooksForm.cs">
       <SubType>Form</SubType>
@@ -93,6 +100,9 @@
       <DependentUpon>ShowCart.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="Bicycles\BicycleForm.resx">
+      <DependentUpon>BicycleForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BooksForm.resx">
       <DependentUpon>BooksForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,6 +123,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
@@ -132,6 +143,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elit_herr_18vxl_2813-1845-2126-37-w730_q85_u-600x404.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\natur_colour_2814-0701-2133-48-w730_q85_u-600x404.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\natur_herr-600x404.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
