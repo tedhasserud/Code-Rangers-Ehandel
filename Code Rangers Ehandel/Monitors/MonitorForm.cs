@@ -15,6 +15,7 @@ namespace Code_Rangers_Ehandel
         public MonitorForm()
         {
             InitializeComponent();
+            User.getUser();
         }
 
         private void label18_Click(object sender, EventArgs e)
@@ -32,6 +33,19 @@ namespace Code_Rangers_Ehandel
         {
             Login login = new Login();
             login.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ShowCart showCart = new ShowCart();
+            showCart.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Monitor xiaomi = new Monitor("Mi Curved Gaming Monitor 34", "Monitor", "Xiaomi", 500, "34", "144", true);
+            User.getUser().BuyItem(xiaomi);
+            MessageBox.Show("In your cart is: " + User.getUser().ShowItems());
         }
     }
 }

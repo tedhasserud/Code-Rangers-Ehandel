@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MonitorForm));
-            this.label18 = new System.Windows.Forms.Label();
+            this.labelHome = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
@@ -50,24 +50,25 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label18
+            // labelHome
             // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label18.Location = new System.Drawing.Point(753, 22);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(102, 45);
-            this.label18.TabIndex = 76;
-            this.label18.Text = "home";
-            this.label18.Click += new System.EventHandler(this.label18_Click);
+            this.labelHome.AutoSize = true;
+            this.labelHome.BackColor = System.Drawing.Color.Transparent;
+            this.labelHome.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHome.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.labelHome.Location = new System.Drawing.Point(753, 22);
+            this.labelHome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelHome.Name = "labelHome";
+            this.labelHome.Size = new System.Drawing.Size(102, 45);
+            this.labelHome.TabIndex = 76;
+            this.labelHome.Text = "home";
+            this.labelHome.Click += new System.EventHandler(this.label18_Click);
             // 
             // label17
             // 
@@ -131,6 +132,7 @@
             this.button1.TabIndex = 70;
             this.button1.Text = "buy";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label10
             // 
@@ -290,13 +292,26 @@
             this.label1.TabIndex = 53;
             this.label1.Text = "monitors";
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.button5.Location = new System.Drawing.Point(761, 71);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(88, 35);
+            this.button5.TabIndex = 77;
+            this.button5.Text = "show cart";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // MonitorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 36F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(933, 576);
-            this.Controls.Add(this.label18);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.labelHome);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
@@ -332,7 +347,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label labelHome;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
@@ -353,5 +368,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button5;
     }
 }

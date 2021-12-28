@@ -81,7 +81,9 @@
     <Compile Include="Monitors\MonitorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Monitors\MonitorForm.Designer.cs" />
+    <Compile Include="Monitors\MonitorForm.designer.cs">
+      <DependentUpon>MonitorForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MoviesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,7 +119,9 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Monitors\MonitorForm.resx" />
+    <EmbeddedResource Include="Monitors\MonitorForm.resx">
+      <DependentUpon>MonitorForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MoviesForm.resx">
       <DependentUpon>MoviesForm.cs</DependentUpon>
     </EmbeddedResource>
