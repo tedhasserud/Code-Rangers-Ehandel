@@ -12,17 +12,18 @@ namespace Code_Rangers_Ehandel
 {
     public partial class ShowCart : Form
     {
-        CartBuilder cartBuilder;
-        ShoppingCart cart;
         public ShowCart()
         {
             InitializeComponent();
-            //cartBuilder = new CartBuilder();
-            //listBox1.Items.Add(CartBuilder.Cart());
-            //User.getUser();
-            //cart = new ShoppingCart(); 
-            listBox1.Items.Add(User.getUser().showItems());
 
+            foreach (var item in User.getUser().ActiveCart)
+            {
+                listBox1.Items.Add(item.Name);
+            }
+        }
+        private void ok_click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

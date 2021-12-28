@@ -26,12 +26,10 @@ namespace Code_Rangers_Ehandel
         {
             products.Add(product);
         }
-
         public void addManyItems(List<Product> productsToAdd)
         {
             products.AddRange(productsToAdd);
         }
-
 
         public float getCost()
         {
