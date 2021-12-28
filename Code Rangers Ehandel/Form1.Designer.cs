@@ -58,6 +58,7 @@ namespace Code_Rangers_Ehandel
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -303,6 +304,7 @@ namespace Code_Rangers_Ehandel
             this.label8.Size = new System.Drawing.Size(45, 21);
             this.label8.TabIndex = 29;
             this.label8.Text = "login";
+            this.label8.Click += new System.EventHandler(this.login);
             // 
             // panel1
             // 
@@ -401,12 +403,27 @@ namespace Code_Rangers_Ehandel
             this.pictureBox1.TabIndex = 49;
             this.pictureBox1.TabStop = false;
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.button5.Font = new System.Drawing.Font("Ebrima", 12F);
+            this.button5.ForeColor = System.Drawing.Color.Honeydew;
+            this.button5.Location = new System.Drawing.Point(56, 584);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(88, 35);
+            this.button5.TabIndex = 56;
+            this.button5.Text = "show cart";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.showcart_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(1047, 641);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label25);
@@ -469,6 +486,7 @@ namespace Code_Rangers_Ehandel
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button5;
     }
 }
 

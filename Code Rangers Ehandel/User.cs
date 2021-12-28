@@ -1,8 +1,11 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Code_Rangers_Ehandel;
+using System.Windows.Forms;
 
 namespace Code_Rangers_Ehandel
 {
@@ -14,6 +17,28 @@ namespace Code_Rangers_Ehandel
         public string Name { get; set; }
         public string Address { get; set; }
         public string Email { get; set; }
+        public List<Product> ActiveCart { get; set; }
+
+        public User()
+        {
+            ActiveCart = new List<Product>();
+        }
+
+        public void BuyItem(Product product)
+        {
+            ActiveCart.Add(product);
+        }
+
+        public string ShowItems()
+        {
+            StringBuilder sb = new StringBuilder(); 
+
+            foreach (Product product in ActiveCart)
+            {
+                sb.Append(product.Name + "\n");  
+            }
+            return sb.ToString();
+        }
 
         private User(string username, string password)
         {
@@ -32,7 +57,18 @@ namespace Code_Rangers_Ehandel
             Name = name;
             Address = address;
             Email = email;
+
         }
+
+        public static User getUser()
+        {
+            if (user == null)
+            {
+                user = new User();
+            }
+            return user;
+        }
+
         public static User getUser(string username)
         {
             if (user == null)

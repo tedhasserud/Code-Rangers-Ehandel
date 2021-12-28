@@ -86,6 +86,12 @@
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
     <Compile Include="ShoppingCart.cs" />
+    <Compile Include="ShowCart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowCart.Designer.cs">
+      <DependentUpon>ShowCart.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
     <EmbeddedResource Include="BooksForm.resx">
       <DependentUpon>BooksForm.cs</DependentUpon>
@@ -110,6 +116,9 @@
     </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowCart.resx">
+      <DependentUpon>ShowCart.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
