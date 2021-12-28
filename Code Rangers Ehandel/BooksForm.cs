@@ -38,5 +38,37 @@ namespace Code_Rangers_Ehandel
         {
             this.Close();
         }
+
+        public void book2_Click(object sender, EventArgs e)
+        {
+            Book lotr2 = new Book("The Two Towers", 12, "Book", "Fantasy", "Hardcover", "JRR Tolkien", "9780261102361");
+            //cart.AddItem(lotr2);
+            User.getUser().BuyItem(lotr2);
+            MessageBox.Show("In your cart is: " + User.getUser().showItems().ToString());
+
+        }
+
+        public void book3_Click(object sender, EventArgs e)
+        {
+            Book lotr3 = new Book("The Return of the King", 12, "Book", "Fantasy", "Hardcover", "JRR Tolkien", "9780261102378");
+            //cart.AddItem(lotr3);
+            User.getUser().BuyItem(lotr3);
+            MessageBox.Show("In your cart is: " + User.getUser().showItems().ToString());
+        }
+
+        private void book1_Click(object sender, EventArgs e)
+        {
+            Book lotr1 = new Book("The Fellowship of the Ring", 12, "Book", "Fantasy", "Hardcover", "JRR Tolkien", "9780261103573");
+            //cart.AddItem(lotr1);
+            User.getUser().BuyItem(lotr1);
+            MessageBox.Show("In your cart is: " + User.getUser().showItems().ToString());
+        }
+
+        private void show_click(object sender, EventArgs e)
+        {
+            ShowCart showCart = new ShowCart();
+            showCart.Show();
+
+        }
     }
 }
