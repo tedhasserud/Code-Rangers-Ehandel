@@ -153,5 +153,6 @@
   <ItemGroup>
     <None Include="Resources\natur_herr-600x404.jpg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
