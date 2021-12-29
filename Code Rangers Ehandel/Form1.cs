@@ -50,6 +50,10 @@ namespace Code_Rangers_Ehandel
             showCart.Show();
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+            RecordsForm RecordsForm = new RecordsForm();
+            RecordsForm.Show();
 
         private void Bicycles_Click(object sender, EventArgs e)
         {

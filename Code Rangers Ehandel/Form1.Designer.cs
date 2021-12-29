@@ -57,8 +57,8 @@ namespace Code_Rangers_Ehandel
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -356,7 +356,6 @@ namespace Code_Rangers_Ehandel
             // 
             // Bicycles
             // 
-
             this.Bicycles.AutoSize = true;
             this.Bicycles.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.Bicycles.Font = new System.Drawing.Font("Ebrima", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -367,7 +366,6 @@ namespace Code_Rangers_Ehandel
             this.Bicycles.TabIndex = 4;
             this.Bicycles.Text = "bicycles";
             this.Bicycles.Click += new System.EventHandler(this.Bicycles_Click);
-
             // 
             // label1
             // 
@@ -408,6 +406,7 @@ namespace Code_Rangers_Ehandel
             this.label3.Size = new System.Drawing.Size(126, 45);
             this.label3.TabIndex = 2;
             this.label3.Text = "records";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -447,6 +446,17 @@ namespace Code_Rangers_Ehandel
             this.button5.Text = "show cart";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.showcart_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(75, 166);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1009, 544);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 49;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
