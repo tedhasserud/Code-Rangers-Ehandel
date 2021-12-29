@@ -47,5 +47,11 @@ namespace Code_Rangers_Ehandel
             ShowCart showCart = new ShowCart();
             showCart.Show();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            RecordsForm RecordsForm = new RecordsForm();
+            RecordsForm.Show();
+        }
     }
 }

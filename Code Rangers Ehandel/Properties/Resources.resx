@@ -118,13 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="natur_herr_600x404" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\natur_herr-600x404.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="elit_herr_18vxl_2813_1845_2126_37_w730_q85_u_600x404" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\elit_herr_18vxl_2813-1845-2126-37-w730_q85_u-600x404.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Queen_Hot_Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Queen_Hot_Space.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="natur_colour_2814_0701_2133_48_w730_q85_u_600x404" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\natur_colour_2814-0701-2133-48-w730_q85_u-600x404.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="natur_herr_600x404" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\natur_herr-600x404.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Queen_A_Kind_Of_Magic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Queen_A_Kind_Of_Magic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Queen_News_Of_The_World" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Queen_News_Of_The_World.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
