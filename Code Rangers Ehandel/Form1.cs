@@ -67,5 +67,11 @@ namespace Code_Rangers_Ehandel
             MoviesForm.Show();
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            MonitorForm monitorForm = new MonitorForm();
+            monitorForm.Show();
+        }
     }
 }

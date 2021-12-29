@@ -62,6 +62,13 @@
     </Compile>
     <Compile Include="CartBuilder.cs" />
     <Compile Include="Categories.cs" />
+    <Compile Include="Monitors\Monitor.cs" />
+    <Compile Include="Monitors\MonitorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitors\MonitorForm.Designer.cs">
+      <DependentUpon>MonitorForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Record.cs" />
     <Compile Include="EverythingFacade.cs" />
     <Compile Include="Form1.cs">
@@ -119,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitors\MonitorForm.resx">
+      <DependentUpon>MonitorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Movies\MoviesForm.resx">
       <DependentUpon>MoviesForm.cs</DependentUpon>
@@ -182,6 +192,6 @@
   <ItemGroup>
     <None Include="Resources\The Town.jpg" />
   </ItemGroup>
-  <ItemGroup/>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

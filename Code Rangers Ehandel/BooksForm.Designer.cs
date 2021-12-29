@@ -56,7 +56,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.label19 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
@@ -74,7 +73,7 @@
             this.label18.Location = new System.Drawing.Point(854, 28);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(62, 28);
+            this.label18.Size = new System.Drawing.Size(102, 45);
             this.label18.TabIndex = 52;
             this.label18.Text = "home";
             this.label18.Click += new System.EventHandler(this.home_click);
@@ -85,7 +84,7 @@
             this.label17.Location = new System.Drawing.Point(622, 439);
             this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(37, 23);
+            this.label17.Size = new System.Drawing.Size(57, 36);
             this.label17.TabIndex = 51;
             this.label17.Text = "12$";
             // 
@@ -95,7 +94,7 @@
             this.label16.Location = new System.Drawing.Point(418, 439);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(37, 23);
+            this.label16.Size = new System.Drawing.Size(57, 36);
             this.label16.TabIndex = 50;
             this.label16.Text = "12$";
             // 
@@ -105,7 +104,7 @@
             this.label15.Location = new System.Drawing.Point(204, 439);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(37, 23);
+            this.label15.Size = new System.Drawing.Size(57, 36);
             this.label15.TabIndex = 49;
             this.label15.Text = "12$";
             // 
@@ -151,7 +150,7 @@
             this.label14.Location = new System.Drawing.Point(493, 439);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(46, 23);
+            this.label14.Size = new System.Drawing.Size(71, 36);
             this.label14.TabIndex = 45;
             this.label14.Text = "1955";
             // 
@@ -161,7 +160,7 @@
             this.label13.Location = new System.Drawing.Point(289, 439);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(46, 23);
+            this.label13.Size = new System.Drawing.Size(71, 36);
             this.label13.TabIndex = 44;
             this.label13.Text = "1954";
             // 
@@ -171,7 +170,7 @@
             this.label12.Location = new System.Drawing.Point(74, 439);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(46, 23);
+            this.label12.Size = new System.Drawing.Size(71, 36);
             this.label12.TabIndex = 43;
             this.label12.Text = "1954";
             // 
@@ -181,7 +180,7 @@
             this.label10.Location = new System.Drawing.Point(493, 417);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(82, 23);
+            this.label10.Size = new System.Drawing.Size(124, 36);
             this.label10.TabIndex = 42;
             this.label10.Text = "jrr tolkien";
             // 
@@ -191,7 +190,7 @@
             this.label11.Location = new System.Drawing.Point(493, 395);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(174, 23);
+            this.label11.Size = new System.Drawing.Size(262, 36);
             this.label11.TabIndex = 41;
             this.label11.Text = "the return of the king";
             // 
@@ -201,7 +200,7 @@
             this.label4.Location = new System.Drawing.Point(289, 417);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 23);
+            this.label4.Size = new System.Drawing.Size(124, 36);
             this.label4.TabIndex = 40;
             this.label4.Text = "jrr tolkien";
             // 
@@ -211,7 +210,7 @@
             this.label5.Location = new System.Drawing.Point(289, 395);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(123, 23);
+            this.label5.Size = new System.Drawing.Size(187, 36);
             this.label5.TabIndex = 39;
             this.label5.Text = "the two towers";
             // 
@@ -221,7 +220,7 @@
             this.label3.Location = new System.Drawing.Point(74, 417);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 23);
+            this.label3.Size = new System.Drawing.Size(124, 36);
             this.label3.TabIndex = 38;
             this.label3.Text = "jrr tolkien";
             // 
@@ -231,7 +230,7 @@
             this.label2.Location = new System.Drawing.Point(74, 395);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(200, 23);
+            this.label2.Size = new System.Drawing.Size(302, 36);
             this.label2.TabIndex = 37;
             this.label2.Text = "the fellowship of the ring";
             // 
@@ -244,7 +243,7 @@
             this.label9.Location = new System.Drawing.Point(831, 488);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(78, 28);
+            this.label9.Size = new System.Drawing.Size(128, 45);
             this.label9.TabIndex = 36;
             this.label9.Text = "register";
             this.label9.Click += new System.EventHandler(this.register_click);
@@ -258,7 +257,7 @@
             this.label8.Location = new System.Drawing.Point(776, 488);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(57, 28);
+            this.label8.Size = new System.Drawing.Size(92, 45);
             this.label8.TabIndex = 35;
             this.label8.Text = "login";
             this.label8.Click += new System.EventHandler(this.login_Click);
@@ -308,7 +307,7 @@
             this.label7.Location = new System.Drawing.Point(36, 11);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(255, 19);
+            this.label7.Size = new System.Drawing.Size(404, 30);
             this.label7.TabIndex = 31;
             this.label7.Text = "swedens largest webshop for everything\r\n";
             // 
@@ -321,7 +320,7 @@
             this.label6.Location = new System.Drawing.Point(27, 28);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(317, 78);
+            this.label6.Size = new System.Drawing.Size(503, 125);
             this.label6.TabIndex = 30;
             this.label6.Text = "eVerything";
             // 
@@ -332,7 +331,7 @@
             this.label1.Location = new System.Drawing.Point(352, 28);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 46);
+            this.label1.Size = new System.Drawing.Size(176, 72);
             this.label1.TabIndex = 29;
             this.label1.Text = "books";
             // 
@@ -355,22 +354,12 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.show_click);
             // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(292, 10);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(50, 17);
-            this.label19.TabIndex = 56;
-            this.label19.Text = "label19";
-            // 
             // BooksForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 36F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(933, 543);
-            this.Controls.Add(this.label19);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
@@ -437,7 +426,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.ToolTip toolTip2;
         private System.Windows.Forms.ToolTip toolTip3;
