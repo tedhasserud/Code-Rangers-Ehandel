@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Code_Rangers_Ehandel.Bicycles;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -49,10 +50,17 @@ namespace Code_Rangers_Ehandel
             showCart.Show();
         }
 
+
+        private void Bicycles_Click(object sender, EventArgs e)
+        {
+            BicycleForm BicycleForm = new BicycleForm();
+            BicycleForm.Show();
+        }
         private void label4_Click(object sender, EventArgs e) // movies
         {
             MoviesForm MoviesForm = new MoviesForm();
             MoviesForm.Show();
+
         }
     }
 }
