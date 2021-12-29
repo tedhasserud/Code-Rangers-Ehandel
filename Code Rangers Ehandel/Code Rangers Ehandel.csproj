@@ -163,6 +163,6 @@
   <ItemGroup>
     <None Include="Resources\The Town.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup/>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

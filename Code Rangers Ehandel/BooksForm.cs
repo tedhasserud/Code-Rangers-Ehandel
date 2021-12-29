@@ -12,10 +12,15 @@ namespace Code_Rangers_Ehandel
 {
     public partial class BooksForm : Form
     {
+        Book lotr1 = new Book("The Fellowship of the Ring", 12, "Book", "Fantasy", "Hardcover", "JRR Tolkien", "9780261103573");
+        Book lotr2 = new Book("The Two Towers", 12, "Book", "Fantasy", "Hardcover", "JRR Tolkien", "9780261102361");
+        Book lotr3 = new Book("The Return of the King", 12, "Book", "Fantasy", "Hardcover", "JRR Tolkien", "9780261102378");
+
         public BooksForm()
         {
             InitializeComponent();
             User.getUser();
+
         }
         private void login_Click(object sender, EventArgs e)
         {
@@ -33,19 +38,16 @@ namespace Code_Rangers_Ehandel
         }
         private void book1_Click(object sender, EventArgs e)
         {
-            Book lotr1 = new Book("The Fellowship of the Ring", 12, "Book", "Fantasy", "Hardcover", "JRR Tolkien", "9780261103573");
             User.getUser().BuyItem(lotr1);
             MessageBox.Show("In your cart is: " + User.getUser().ShowItems());
         }
         public void book2_Click(object sender, EventArgs e)
         {
-            Book lotr2 = new Book("The Two Towers", 12, "Book", "Fantasy", "Hardcover", "JRR Tolkien", "9780261102361");
             User.getUser().BuyItem(lotr2);
             MessageBox.Show("In your cart is: " + User.getUser().ShowItems());
         }
         public void book3_Click(object sender, EventArgs e)
         {
-            Book lotr3 = new Book("The Return of the King", 12, "Book", "Fantasy", "Hardcover", "JRR Tolkien", "9780261102378");
             User.getUser().BuyItem(lotr3);
             MessageBox.Show("In your cart is: " + User.getUser().ShowItems());
         }
@@ -53,6 +55,23 @@ namespace Code_Rangers_Ehandel
         {
             ShowCart showCart = new ShowCart();
             showCart.Show();
+        }
+
+        private void pictureBox1_MouseHover(object sender, EventArgs e)
+        {
+            toolTip1.SetToolTip(pictureBox1,lotr1.Name); 
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            toolTip2.SetToolTip(pictureBox2, lotr2.Name);
+
+        }
+
+        private void pictureBox3_MouseHover(object sender, EventArgs e)
+        {
+            toolTip3.SetToolTip(pictureBox3, lotr3.Name);
+
         }
     }
 }
