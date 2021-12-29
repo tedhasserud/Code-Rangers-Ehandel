@@ -73,6 +73,16 @@ namespace Code_Rangers_Ehandel.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap man_on_fire {
+            get {
+                object obj = ResourceManager.GetObject("man_on_fire", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap natur_colour_2814_0701_2133_48_w730_q85_u_600x404 {
             get {
                 object obj = ResourceManager.GetObject("natur_colour_2814_0701_2133_48_w730_q85_u_600x404", resourceCulture);
@@ -96,6 +106,9 @@ namespace Code_Rangers_Ehandel.Properties {
         internal static System.Drawing.Bitmap Queen_A_Kind_Of_Magic {
             get {
                 object obj = ResourceManager.GetObject("Queen_A_Kind_Of_Magic", resourceCulture);
+        internal static System.Drawing.Bitmap The_Shawshank_Redemption {
+            get {
+                object obj = ResourceManager.GetObject("The_Shawshank_Redemption", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +129,9 @@ namespace Code_Rangers_Ehandel.Properties {
         internal static System.Drawing.Bitmap Queen_News_Of_The_World {
             get {
                 object obj = ResourceManager.GetObject("Queen_News_Of_The_World", resourceCulture);
+        internal static System.Drawing.Bitmap The_Town {
+            get {
+                object obj = ResourceManager.GetObject("The_Town", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

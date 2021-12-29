@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Code_Rangers_Ehandel.Bicycles;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,7 @@ namespace Code_Rangers_Ehandel
         {
             InitializeComponent();
             everythingFacade = new EverythingFacade(categories, images, lights, user);
+            MessageBox.Show(everythingFacade.StartApp("Ted"));
         }
 
         private void login(object sender, EventArgs e)
@@ -34,7 +36,7 @@ namespace Code_Rangers_Ehandel
         {
             Register register = new Register();
             register.Show();
-            MessageBox.Show(everythingFacade.StartApp("Ted"));
+            
         }
 
         private void Books_click(object sender, EventArgs e)
@@ -52,6 +54,17 @@ namespace Code_Rangers_Ehandel
         {
             RecordsForm RecordsForm = new RecordsForm();
             RecordsForm.Show();
+
+        private void Bicycles_Click(object sender, EventArgs e)
+        {
+            BicycleForm BicycleForm = new BicycleForm();
+            BicycleForm.Show();
+        }
+        private void label4_Click(object sender, EventArgs e) // movies
+        {
+            MoviesForm MoviesForm = new MoviesForm();
+            MoviesForm.Show();
+
         }
     }
 }

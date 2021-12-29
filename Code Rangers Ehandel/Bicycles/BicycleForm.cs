@@ -34,6 +34,7 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.Close();
         }
 
+#region Not Used
         private void BicycleForm_Load(object sender, EventArgs e)
         {
 
@@ -42,6 +43,34 @@ namespace Code_Rangers_Ehandel.Bicycles
         private void label10_Click(object sender, EventArgs e)
         {
 
+        }
+        #endregion
+
+        private void buyBikeOne_Click(object sender, EventArgs e)
+        {
+            Bicycle bike1 = new Bicycle("Skeppshult Natur", 890, "Bicycle");
+            User.getUser().BuyItem(bike1);
+            MessageBox.Show("In your cart is: " + User.getUser().ShowItems());
+        }
+
+        private void buyBikeTwo_Click(object sender, EventArgs e)
+        {
+            Bicycle bike2 = new Bicycle("Skeppshult Colour", 960, "Bicycle");
+            User.getUser().BuyItem(bike2);
+            MessageBox.Show("In your cart is: " + User.getUser().ShowItems());
+        }
+
+        private void buyBikeThree_Click(object sender, EventArgs e)
+        {
+            Bicycle bike3 = new Bicycle("Skeppshult Elit", 1120, "Bicycle");
+            User.getUser().BuyItem(bike3);
+            MessageBox.Show("In your cart is: " + User.getUser().ShowItems());
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ShowCart showCart = new ShowCart();
+            showCart.Show();
         }
     }
 }

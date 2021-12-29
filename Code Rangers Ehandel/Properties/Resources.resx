@@ -126,6 +126,8 @@
   </data>
   <data name="Queen_Hot_Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Queen_Hot_Space.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="man_on_fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man on fire.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="natur_colour_2814_0701_2133_48_w730_q85_u_600x404" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\natur_colour_2814-0701-2133-48-w730_q85_u-600x404.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -135,5 +137,11 @@
   </data>
   <data name="Queen_News_Of_The_World" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Queen_News_Of_The_World.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Shawshank_Redemption" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Shawshank Redemption.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Town" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The Town.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

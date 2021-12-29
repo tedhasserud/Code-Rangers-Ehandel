@@ -39,10 +39,8 @@ namespace Code_Rangers_Ehandel
             }
             return sb.ToString();
         }
-
         private User(string username, string password)
         {
-          
             Username = username;
             Password = password;
         }
@@ -57,7 +55,6 @@ namespace Code_Rangers_Ehandel
             Name = name;
             Address = address;
             Email = email;
-
         }
 
         public static User getUser()
