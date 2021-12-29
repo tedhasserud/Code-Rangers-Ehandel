@@ -52,7 +52,7 @@ namespace Code_Rangers_Ehandel
             this.label8 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.Bicycles = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -310,7 +310,7 @@ namespace Code_Rangers_Ehandel
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.Bicycles);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
@@ -332,17 +332,18 @@ namespace Code_Rangers_Ehandel
             this.label6.TabIndex = 5;
             this.label6.Text = "eVerything";
             // 
-            // label5
+            // Bicycles
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.label5.Font = new System.Drawing.Font("Ebrima", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(681, 25);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 30);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "bikes";
+            this.Bicycles.AutoSize = true;
+            this.Bicycles.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.Bicycles.Font = new System.Drawing.Font("Ebrima", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bicycles.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Bicycles.Location = new System.Drawing.Point(681, 25);
+            this.Bicycles.Name = "Bicycles";
+            this.Bicycles.Size = new System.Drawing.Size(85, 30);
+            this.Bicycles.TabIndex = 4;
+            this.Bicycles.Text = "bicycles";
+            this.Bicycles.Click += new System.EventHandler(this.Bicycles_Click);
             // 
             // label1
             // 
@@ -480,7 +481,7 @@ namespace Code_Rangers_Ehandel
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label Bicycles;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

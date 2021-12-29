@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Code_Rangers_Ehandel.Bicycles;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -46,6 +47,12 @@ namespace Code_Rangers_Ehandel
         {
             ShowCart showCart = new ShowCart();
             showCart.Show();
+        }
+
+        private void Bicycles_Click(object sender, EventArgs e)
+        {
+            BicycleForm BicycleForm = new BicycleForm();
+            BicycleForm.Show();
         }
     }
 }

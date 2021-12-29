@@ -53,6 +53,7 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.buyBikeOne = new System.Windows.Forms.Button();
             this.buyBikeTwo = new System.Windows.Forms.Button();
             this.buyBikeThree = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -64,8 +65,8 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.home.BackColor = System.Drawing.Color.Transparent;
             this.home.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.home.Location = new System.Drawing.Point(786, 34);
-            this.home.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.home.Location = new System.Drawing.Point(854, 28);
+            this.home.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.home.Name = "home";
             this.home.Size = new System.Drawing.Size(50, 21);
             this.home.TabIndex = 76;
@@ -78,8 +79,8 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.register.BackColor = System.Drawing.Color.Transparent;
             this.register.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.register.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.register.Location = new System.Drawing.Point(824, 532);
-            this.register.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.register.Location = new System.Drawing.Point(961, 614);
+            this.register.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.register.Name = "register";
             this.register.Size = new System.Drawing.Size(63, 21);
             this.register.TabIndex = 60;
@@ -92,8 +93,8 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.login.BackColor = System.Drawing.Color.Transparent;
             this.login.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.login.Location = new System.Drawing.Point(769, 532);
-            this.login.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.login.Location = new System.Drawing.Point(897, 614);
+            this.login.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(45, 21);
             this.login.TabIndex = 59;
@@ -106,8 +107,8 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label7.Location = new System.Drawing.Point(55, 23);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(64, 27);
+            this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(202, 13);
             this.label7.TabIndex = 55;
@@ -119,8 +120,8 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.label6.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label6.Font = new System.Drawing.Font("Ebrima", 35.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Honeydew;
-            this.label6.Location = new System.Drawing.Point(46, 40);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(54, 46);
+            this.label6.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(254, 62);
             this.label6.TabIndex = 54;
@@ -130,8 +131,8 @@ namespace Code_Rangers_Ehandel.Bicycles
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Ebrima", 20F);
-            this.label1.Location = new System.Drawing.Point(349, 40);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(407, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(98, 37);
             this.label1.TabIndex = 53;
@@ -140,9 +141,9 @@ namespace Code_Rangers_Ehandel.Bicycles
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Code_Rangers_Ehandel.Properties.Resources.natur_herr_600x404;
-            this.pictureBox1.Location = new System.Drawing.Point(58, 186);
+            this.pictureBox1.Location = new System.Drawing.Point(65, 155);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(257, 177);
+            this.pictureBox1.Size = new System.Drawing.Size(259, 180);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 77;
             this.pictureBox1.TabStop = false;
@@ -150,9 +151,9 @@ namespace Code_Rangers_Ehandel.Bicycles
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Code_Rangers_Ehandel.Properties.Resources.natur_colour_2814_0701_2133_48_w730_q85_u_600x404;
-            this.pictureBox2.Location = new System.Drawing.Point(346, 186);
+            this.pictureBox2.Location = new System.Drawing.Point(355, 155);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(257, 177);
+            this.pictureBox2.Size = new System.Drawing.Size(259, 180);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 78;
             this.pictureBox2.TabStop = false;
@@ -160,9 +161,9 @@ namespace Code_Rangers_Ehandel.Bicycles
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Code_Rangers_Ehandel.Properties.Resources.elit_herr_18vxl_2813_1845_2126_37_w730_q85_u_600x404;
-            this.pictureBox3.Location = new System.Drawing.Point(630, 186);
+            this.pictureBox3.Location = new System.Drawing.Point(645, 155);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(257, 177);
+            this.pictureBox3.Size = new System.Drawing.Size(259, 180);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 79;
             this.pictureBox3.TabStop = false;
@@ -170,54 +171,60 @@ namespace Code_Rangers_Ehandel.Bicycles
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(57, 370);
+            this.label2.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label2.Location = new System.Drawing.Point(64, 338);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 13);
+            this.label2.Size = new System.Drawing.Size(104, 17);
             this.label2.TabIndex = 80;
             this.label2.Text = "skeppshult natur";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(57, 392);
+            this.label3.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label3.Location = new System.Drawing.Point(64, 364);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(25, 13);
+            this.label3.Size = new System.Drawing.Size(32, 17);
             this.label3.TabIndex = 80;
             this.label3.Text = "herr";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(343, 370);
+            this.label5.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label5.Location = new System.Drawing.Point(352, 338);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 13);
+            this.label5.Size = new System.Drawing.Size(111, 17);
             this.label5.TabIndex = 80;
             this.label5.Text = "skeppshult colour";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(627, 370);
+            this.label8.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label8.Location = new System.Drawing.Point(642, 338);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(74, 13);
+            this.label8.Size = new System.Drawing.Size(91, 17);
             this.label8.TabIndex = 80;
             this.label8.Text = "skeppshult elit";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(343, 392);
+            this.label9.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label9.Location = new System.Drawing.Point(352, 364);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(27, 13);
+            this.label9.Size = new System.Drawing.Size(34, 17);
             this.label9.TabIndex = 80;
             this.label9.Text = "dam";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(627, 392);
+            this.label10.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label10.Location = new System.Drawing.Point(642, 364);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(25, 13);
+            this.label10.Size = new System.Drawing.Size(32, 17);
             this.label10.TabIndex = 80;
             this.label10.Text = "herr";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -225,27 +232,30 @@ namespace Code_Rangers_Ehandel.Bicycles
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(57, 415);
+            this.label4.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label4.Location = new System.Drawing.Point(64, 391);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 13);
+            this.label4.Size = new System.Drawing.Size(75, 17);
             this.label4.TabIndex = 80;
             this.label4.Text = "spegelsvart";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(343, 415);
+            this.label11.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label11.Location = new System.Drawing.Point(352, 391);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(46, 13);
+            this.label11.Size = new System.Drawing.Size(58, 17);
             this.label11.TabIndex = 80;
             this.label11.Text = "oregano";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(627, 415);
+            this.label12.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label12.Location = new System.Drawing.Point(642, 391);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(50, 13);
+            this.label12.Size = new System.Drawing.Size(62, 17);
             this.label12.TabIndex = 80;
             this.label12.Text = "mahogny";
             this.label12.Click += new System.EventHandler(this.label10_Click);
@@ -253,27 +263,30 @@ namespace Code_Rangers_Ehandel.Bicycles
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(281, 415);
+            this.label13.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label13.Location = new System.Drawing.Point(284, 391);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(34, 13);
+            this.label13.Size = new System.Drawing.Size(40, 17);
             this.label13.TabIndex = 80;
             this.label13.Text = "890 $";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(569, 415);
+            this.label14.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label14.Location = new System.Drawing.Point(574, 391);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(34, 13);
+            this.label14.Size = new System.Drawing.Size(40, 17);
             this.label14.TabIndex = 80;
             this.label14.Text = "960 $";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(847, 415);
+            this.label15.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label15.Location = new System.Drawing.Point(988, 479);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(40, 13);
+            this.label15.Size = new System.Drawing.Size(47, 17);
             this.label15.TabIndex = 80;
             this.label15.Text = "1120 $";
             this.label15.Click += new System.EventHandler(this.label10_Click);
@@ -281,39 +294,59 @@ namespace Code_Rangers_Ehandel.Bicycles
             // buyBikeOne
             // 
             this.buyBikeOne.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.buyBikeOne.Location = new System.Drawing.Point(227, 440);
+            this.buyBikeOne.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buyBikeOne.Location = new System.Drawing.Point(221, 416);
             this.buyBikeOne.Name = "buyBikeOne";
-            this.buyBikeOne.Size = new System.Drawing.Size(88, 35);
+            this.buyBikeOne.Size = new System.Drawing.Size(103, 40);
             this.buyBikeOne.TabIndex = 81;
             this.buyBikeOne.Text = "buy";
             this.buyBikeOne.UseVisualStyleBackColor = false;
+            this.buyBikeOne.Click += new System.EventHandler(this.buyBikeOne_Click);
             // 
             // buyBikeTwo
             // 
             this.buyBikeTwo.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.buyBikeTwo.Location = new System.Drawing.Point(515, 440);
+            this.buyBikeTwo.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.buyBikeTwo.Location = new System.Drawing.Point(511, 415);
             this.buyBikeTwo.Name = "buyBikeTwo";
-            this.buyBikeTwo.Size = new System.Drawing.Size(88, 35);
+            this.buyBikeTwo.Size = new System.Drawing.Size(103, 40);
             this.buyBikeTwo.TabIndex = 81;
             this.buyBikeTwo.Text = "buy";
             this.buyBikeTwo.UseVisualStyleBackColor = false;
+            this.buyBikeTwo.Click += new System.EventHandler(this.buyBikeTwo_Click);
             // 
             // buyBikeThree
             // 
             this.buyBikeThree.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.buyBikeThree.Location = new System.Drawing.Point(799, 440);
+            this.buyBikeThree.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.buyBikeThree.Location = new System.Drawing.Point(801, 415);
             this.buyBikeThree.Name = "buyBikeThree";
-            this.buyBikeThree.Size = new System.Drawing.Size(88, 35);
+            this.buyBikeThree.Size = new System.Drawing.Size(103, 40);
             this.buyBikeThree.TabIndex = 81;
             this.buyBikeThree.Text = "buy";
             this.buyBikeThree.UseVisualStyleBackColor = false;
+            this.buyBikeThree.Click += new System.EventHandler(this.buyBikeThree_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.button5.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.button5.Location = new System.Drawing.Point(816, 55);
+            this.button5.Margin = new System.Windows.Forms.Padding(5);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(103, 40);
+            this.button5.TabIndex = 82;
+            this.button5.Text = "show cart";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // BicycleForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(933, 576);
+            this.ClientSize = new System.Drawing.Size(933, 543);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.buyBikeThree);
             this.Controls.Add(this.buyBikeTwo);
             this.Controls.Add(this.buyBikeOne);
@@ -338,6 +371,7 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
+            this.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.InactiveBorder;
             this.Name = "BicycleForm";
             this.Text = "BicycleForm";
@@ -376,5 +410,6 @@ namespace Code_Rangers_Ehandel.Bicycles
         private System.Windows.Forms.Button buyBikeOne;
         private System.Windows.Forms.Button buyBikeTwo;
         private System.Windows.Forms.Button buyBikeThree;
+        private System.Windows.Forms.Button button5;
     }
 }
