@@ -19,7 +19,6 @@ namespace Code_Rangers_Ehandel
         public BooksForm()
         {
             InitializeComponent();
-            User.getUser();
 
         }
         private void login_Click(object sender, EventArgs e)

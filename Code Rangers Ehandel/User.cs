@@ -56,7 +56,6 @@ namespace Code_Rangers_Ehandel
             Address = address;
             Email = email;
         }
-
         public static User getUser()
         {
             if (user == null)
@@ -65,7 +64,6 @@ namespace Code_Rangers_Ehandel
             }
             return user;
         }
-
         public static User getUser(string username)
         {
             if (user == null)
@@ -90,6 +88,5 @@ namespace Code_Rangers_Ehandel
             }
             return user;
         }
-     
     }
 }
