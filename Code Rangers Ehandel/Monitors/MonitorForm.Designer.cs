@@ -29,46 +29,46 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MonitorForm));
-            this.labelHome = new System.Windows.Forms.Label();
+            this.home = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.monitor3 = new System.Windows.Forms.Button();
+            this.monitor2 = new System.Windows.Forms.Button();
+            this.monitor1 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.register = new System.Windows.Forms.Label();
+            this.login = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.show = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // labelHome
+            // home
             // 
-            this.labelHome.AutoSize = true;
-            this.labelHome.BackColor = System.Drawing.Color.Transparent;
-            this.labelHome.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelHome.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.labelHome.Location = new System.Drawing.Point(753, 22);
-            this.labelHome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelHome.Name = "labelHome";
-            this.labelHome.Size = new System.Drawing.Size(102, 45);
-            this.labelHome.TabIndex = 76;
-            this.labelHome.Text = "home";
-            this.labelHome.Click += new System.EventHandler(this.label18_Click);
+            this.home.AutoSize = true;
+            this.home.BackColor = System.Drawing.Color.Transparent;
+            this.home.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.home.Location = new System.Drawing.Point(753, 22);
+            this.home.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.home.Name = "home";
+            this.home.Size = new System.Drawing.Size(102, 45);
+            this.home.TabIndex = 76;
+            this.home.Text = "home";
+            this.home.Click += new System.EventHandler(this.home_Click);
             // 
             // label17
             // 
@@ -100,41 +100,41 @@
             this.label15.TabIndex = 73;
             this.label15.Text = "500$";
             // 
-            // button3
+            // monitor3
             // 
-            this.button3.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button3.Location = new System.Drawing.Point(464, 506);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(88, 35);
-            this.button3.TabIndex = 72;
-            this.button3.Text = "buy";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.monitor3.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.monitor3.Location = new System.Drawing.Point(464, 506);
+            this.monitor3.Margin = new System.Windows.Forms.Padding(4);
+            this.monitor3.Name = "monitor3";
+            this.monitor3.Size = new System.Drawing.Size(88, 35);
+            this.monitor3.TabIndex = 72;
+            this.monitor3.Text = "buy";
+            this.monitor3.UseVisualStyleBackColor = false;
+            this.monitor3.Click += new System.EventHandler(this.monitor3_Click);
             // 
-            // button2
+            // monitor2
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button2.Location = new System.Drawing.Point(260, 506);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 35);
-            this.button2.TabIndex = 71;
-            this.button2.Text = "buy";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.monitor2.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.monitor2.Location = new System.Drawing.Point(260, 506);
+            this.monitor2.Margin = new System.Windows.Forms.Padding(4);
+            this.monitor2.Name = "monitor2";
+            this.monitor2.Size = new System.Drawing.Size(88, 35);
+            this.monitor2.TabIndex = 71;
+            this.monitor2.Text = "buy";
+            this.monitor2.UseVisualStyleBackColor = false;
+            this.monitor2.Click += new System.EventHandler(this.monitor2_Click);
             // 
-            // button1
+            // monitor1
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button1.Location = new System.Drawing.Point(46, 506);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 35);
-            this.button1.TabIndex = 70;
-            this.button1.Text = "buy";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.monitor1.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.monitor1.Location = new System.Drawing.Point(46, 506);
+            this.monitor1.Margin = new System.Windows.Forms.Padding(4);
+            this.monitor1.Name = "monitor1";
+            this.monitor1.Size = new System.Drawing.Size(88, 35);
+            this.monitor1.TabIndex = 70;
+            this.monitor1.Text = "buy";
+            this.monitor1.UseVisualStyleBackColor = false;
+            this.monitor1.Click += new System.EventHandler(this.monitor1_Click);
             // 
             // label10
             // 
@@ -196,33 +196,33 @@
             this.label2.TabIndex = 61;
             this.label2.Text = "Mi Curved Gaming Monitor 34\"";
             // 
-            // label9
+            // register
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label9.Location = new System.Drawing.Point(791, 520);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(128, 45);
-            this.label9.TabIndex = 60;
-            this.label9.Text = "register";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.register.AutoSize = true;
+            this.register.BackColor = System.Drawing.Color.Transparent;
+            this.register.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.register.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.register.Location = new System.Drawing.Point(791, 520);
+            this.register.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.register.Name = "register";
+            this.register.Size = new System.Drawing.Size(128, 45);
+            this.register.TabIndex = 60;
+            this.register.Text = "register";
+            this.register.Click += new System.EventHandler(this.register_Click);
             // 
-            // label8
+            // login
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label8.Location = new System.Drawing.Point(736, 520);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(92, 45);
-            this.label8.TabIndex = 59;
-            this.label8.Text = "login";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+            this.login.AutoSize = true;
+            this.login.BackColor = System.Drawing.Color.Transparent;
+            this.login.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.login.Location = new System.Drawing.Point(736, 520);
+            this.login.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.login.Name = "login";
+            this.login.Size = new System.Drawing.Size(92, 45);
+            this.login.TabIndex = 59;
+            this.login.Text = "login";
+            this.login.Click += new System.EventHandler(this.login_Click);
             // 
             // pictureBox3
             // 
@@ -294,17 +294,17 @@
             this.label1.TabIndex = 53;
             this.label1.Text = "monitors";
             // 
-            // button5
+            // show
             // 
-            this.button5.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button5.Location = new System.Drawing.Point(761, 71);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(88, 35);
-            this.button5.TabIndex = 77;
-            this.button5.Text = "show cart";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.show.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.show.Location = new System.Drawing.Point(761, 71);
+            this.show.Margin = new System.Windows.Forms.Padding(4);
+            this.show.Name = "show";
+            this.show.Size = new System.Drawing.Size(88, 35);
+            this.show.TabIndex = 77;
+            this.show.Text = "show cart";
+            this.show.UseVisualStyleBackColor = false;
+            this.show.Click += new System.EventHandler(this.show_Click);
             // 
             // MonitorForm
             // 
@@ -312,22 +312,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(933, 576);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.labelHome);
+            this.Controls.Add(this.show);
+            this.Controls.Add(this.home);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.monitor3);
+            this.Controls.Add(this.monitor2);
+            this.Controls.Add(this.monitor1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.register);
+            this.Controls.Add(this.login);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -349,27 +349,27 @@
 
         #endregion
 
-        private System.Windows.Forms.Label labelHome;
+        private System.Windows.Forms.Label home;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button monitor3;
+        private System.Windows.Forms.Button monitor2;
+        private System.Windows.Forms.Button monitor1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label register;
+        private System.Windows.Forms.Label login;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button show;
     }
 }
