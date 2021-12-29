@@ -25,5 +25,27 @@ namespace Code_Rangers_Ehandel
         {
             this.Close();
         }
+
+        private void RemoveItemBtn_Click(object sender, EventArgs e)
+        {
+            RemoveItem();
+        }
+
+        public void RemoveItem()
+        {
+            var selectedItem = listBox1.SelectedItem.ToString();
+
+            foreach (var item in User.getUser().ActiveCart)
+            {
+                if (item.Name.Contains(selectedItem))
+                {
+                    User.getUser().ActiveCart.Remove(item);
+                    listBox1.Items.Remove(selectedItem);
+                    break;
+                }
+            }
+        }
     }
+
+      
 }

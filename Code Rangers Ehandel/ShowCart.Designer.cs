@@ -30,16 +30,18 @@
         {
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.RemoveItemBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
             // 
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
             this.listBox1.Location = new System.Drawing.Point(32, 37);
             this.listBox1.Margin = new System.Windows.Forms.Padding(4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(282, 355);
+            this.listBox1.Size = new System.Drawing.Size(282, 344);
             this.listBox1.TabIndex = 0;
             // 
             // button1
@@ -54,12 +56,25 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.ok_click);
             // 
+            // RemoveItemBtn
+            // 
+            this.RemoveItemBtn.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.RemoveItemBtn.Font = new System.Drawing.Font("Ebrima", 10F);
+            this.RemoveItemBtn.Location = new System.Drawing.Point(59, 399);
+            this.RemoveItemBtn.Name = "RemoveItemBtn";
+            this.RemoveItemBtn.Size = new System.Drawing.Size(108, 37);
+            this.RemoveItemBtn.TabIndex = 29;
+            this.RemoveItemBtn.Text = "Ta bort";
+            this.RemoveItemBtn.UseVisualStyleBackColor = false;
+            this.RemoveItemBtn.Click += new System.EventHandler(this.RemoveItemBtn_Click);
+            // 
             // ShowCart
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(355, 457);
+            this.Controls.Add(this.RemoveItemBtn);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
             this.Font = new System.Drawing.Font("Ebrima", 9.75F);
@@ -75,5 +90,6 @@
 
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button RemoveItemBtn;
     }
 }
