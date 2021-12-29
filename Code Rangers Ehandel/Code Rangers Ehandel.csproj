@@ -62,6 +62,15 @@
     </Compile>
     <Compile Include="CartBuilder.cs" />
     <Compile Include="Categories.cs" />
+    <Compile Include="CheckoutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckoutForm.Designer.cs">
+      <DependentUpon>CheckoutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreditCard.cs" />
+    <Compile Include="Invoice.cs" />
+    <Compile Include="IPaymentStrategy.cs" />
     <Compile Include="Monitors\Monitor.cs" />
     <Compile Include="Monitors\MonitorForm.cs">
       <SubType>Form</SubType>
@@ -69,6 +78,7 @@
     <Compile Include="Monitors\MonitorForm.Designer.cs">
       <DependentUpon>MonitorForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PaymentContext.cs" />
     <Compile Include="Record.cs" />
     <Compile Include="EverythingFacade.cs" />
     <Compile Include="Form1.cs">
@@ -114,12 +124,16 @@
     <Compile Include="ShowCart.Designer.cs">
       <DependentUpon>ShowCart.cs</DependentUpon>
     </Compile>
+    <Compile Include="Swish.cs" />
     <Compile Include="User.cs" />
     <EmbeddedResource Include="Bicycles\BicycleForm.resx">
       <DependentUpon>BicycleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BooksForm.resx">
       <DependentUpon>BooksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckoutForm.resx">
+      <DependentUpon>CheckoutForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
