@@ -28,9 +28,11 @@ namespace Code_Rangers_Ehandel
             Categories.LoadCategories("books", "movies", "bicycles","records", "monitors");
             Images.Load();
             Lights.On();
+
+            //ShowCart showCart = new ShowCart();
+
             User.getUser(user);
             
-
             return "Welcome to eVerything " + user + "!";
         }
 

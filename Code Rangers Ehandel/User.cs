@@ -17,11 +17,12 @@ namespace Code_Rangers_Ehandel
         public string Name { get; set; }
         public string Address { get; set; }
         public string Email { get; set; }
-        public List<Product> ActiveCart { get; set; }
+        public List<Product> ActiveCart { get; } = new List<Product>();
+
 
         public User()
         {
-            ActiveCart = new List<Product>();
+            
         }
 
         public void BuyItem(Product product)

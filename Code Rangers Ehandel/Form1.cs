@@ -54,6 +54,7 @@ namespace Code_Rangers_Ehandel
         {
             RecordsForm RecordsForm = new RecordsForm();
             RecordsForm.Show();
+        }
 
         private void Bicycles_Click(object sender, EventArgs e)
         {

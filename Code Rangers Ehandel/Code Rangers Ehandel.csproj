@@ -173,6 +173,7 @@
   <ItemGroup>
     <None Include="Resources\Queen_News_Of_The_World.png" />
   </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\man on fire.jpg" />
   </ItemGroup>
   <ItemGroup>
