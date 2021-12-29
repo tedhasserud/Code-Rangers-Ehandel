@@ -77,10 +77,11 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MoviesForm.cs">
+    <Compile Include="Movies\Movies.cs" />
+    <Compile Include="Movies\MoviesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MoviesForm.Designer.cs">
+    <Compile Include="Movies\MoviesForm.Designer.cs">
       <DependentUpon>MoviesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Product.cs" />
@@ -112,7 +113,7 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MoviesForm.resx">
+    <EmbeddedResource Include="Movies\MoviesForm.resx">
       <DependentUpon>MoviesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -153,6 +154,15 @@
   <ItemGroup>
     <None Include="Resources\natur_herr-600x404.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\man on fire.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Shawshank Redemption.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Town.jpg" />
+  </ItemGroup>
+  <ItemGroup/>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
