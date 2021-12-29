@@ -39,10 +39,9 @@
             // 
             this.loginBtn.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.loginBtn.Font = new System.Drawing.Font("Ebrima", 9.75F);
-            this.loginBtn.Location = new System.Drawing.Point(398, 174);
-            this.loginBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.loginBtn.Location = new System.Drawing.Point(265, 113);
             this.loginBtn.Name = "loginBtn";
-            this.loginBtn.Size = new System.Drawing.Size(112, 43);
+            this.loginBtn.Size = new System.Drawing.Size(75, 28);
             this.loginBtn.TabIndex = 9;
             this.loginBtn.Text = "login";
             this.loginBtn.UseVisualStyleBackColor = false;
@@ -52,10 +51,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Ebrima", 9.75F);
-            this.label2.Location = new System.Drawing.Point(58, 108);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(39, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 28);
+            this.label2.Size = new System.Drawing.Size(65, 17);
             this.label2.TabIndex = 8;
             this.label2.Text = "password";
             // 
@@ -63,45 +61,42 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Ebrima", 9.75F);
-            this.label1.Location = new System.Drawing.Point(58, 46);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(39, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 28);
+            this.label1.Size = new System.Drawing.Size(65, 17);
             this.label1.TabIndex = 7;
             this.label1.Text = "username";
             // 
             // pwTxt
             // 
             this.pwTxt.Font = new System.Drawing.Font("Ebrima", 9.75F);
-            this.pwTxt.Location = new System.Drawing.Point(182, 103);
-            this.pwTxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pwTxt.Location = new System.Drawing.Point(121, 67);
             this.pwTxt.Name = "pwTxt";
-            this.pwTxt.Size = new System.Drawing.Size(328, 34);
+            this.pwTxt.Size = new System.Drawing.Size(220, 25);
             this.pwTxt.TabIndex = 6;
             // 
             // usernameTxt
             // 
             this.usernameTxt.Font = new System.Drawing.Font("Ebrima", 9.75F);
-            this.usernameTxt.Location = new System.Drawing.Point(182, 42);
-            this.usernameTxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.usernameTxt.Location = new System.Drawing.Point(121, 27);
             this.usernameTxt.Name = "usernameTxt";
-            this.usernameTxt.Size = new System.Drawing.Size(328, 34);
+            this.usernameTxt.Size = new System.Drawing.Size(220, 25);
             this.usernameTxt.TabIndex = 5;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(644, 288);
+            this.ClientSize = new System.Drawing.Size(429, 187);
             this.Controls.Add(this.loginBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pwTxt);
             this.Controls.Add(this.usernameTxt);
             this.ForeColor = System.Drawing.Color.Honeydew;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();

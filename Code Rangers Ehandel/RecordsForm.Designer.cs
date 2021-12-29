@@ -65,10 +65,9 @@ namespace Code_Rangers_Ehandel
             this.label6.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label6.Font = new System.Drawing.Font("Ebrima", 35.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Honeydew;
-            this.label6.Location = new System.Drawing.Point(13, 27);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(54, 46);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(317, 78);
+            this.label6.Size = new System.Drawing.Size(254, 62);
             this.label6.TabIndex = 31;
             this.label6.Text = "eVerything";
             // 
@@ -78,10 +77,9 @@ namespace Code_Rangers_Ehandel
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.label7.Location = new System.Drawing.Point(13, 8);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(64, 27);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(255, 19);
+            this.label7.Size = new System.Drawing.Size(202, 13);
             this.label7.TabIndex = 32;
             this.label7.Text = "swedens largest webshop for everything\r\n";
             // 
@@ -90,10 +88,9 @@ namespace Code_Rangers_Ehandel
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Honeydew;
-            this.label17.Location = new System.Drawing.Point(529, 433);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Location = new System.Drawing.Point(648, 343);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(36, 20);
+            this.label17.Size = new System.Drawing.Size(32, 17);
             this.label17.TabIndex = 71;
             this.label17.Text = "45$";
             // 
@@ -102,10 +99,9 @@ namespace Code_Rangers_Ehandel
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Honeydew;
-            this.label16.Location = new System.Drawing.Point(340, 433);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Location = new System.Drawing.Point(506, 343);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(36, 20);
+            this.label16.Size = new System.Drawing.Size(32, 17);
             this.label16.TabIndex = 70;
             this.label16.Text = "13$";
             // 
@@ -114,10 +110,9 @@ namespace Code_Rangers_Ehandel
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Honeydew;
-            this.label15.Location = new System.Drawing.Point(153, 433);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(366, 343);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(36, 20);
+            this.label15.Size = new System.Drawing.Size(32, 17);
             this.label15.TabIndex = 69;
             this.label15.Text = "15$";
             // 
@@ -126,10 +121,9 @@ namespace Code_Rangers_Ehandel
             this.btnBuyQ3.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btnBuyQ3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuyQ3.ForeColor = System.Drawing.Color.Honeydew;
-            this.btnBuyQ3.Location = new System.Drawing.Point(424, 458);
-            this.btnBuyQ3.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuyQ3.Location = new System.Drawing.Point(569, 363);
             this.btnBuyQ3.Name = "btnBuyQ3";
-            this.btnBuyQ3.Size = new System.Drawing.Size(88, 35);
+            this.btnBuyQ3.Size = new System.Drawing.Size(66, 28);
             this.btnBuyQ3.TabIndex = 68;
             this.btnBuyQ3.Text = "buy";
             this.btnBuyQ3.UseVisualStyleBackColor = false;
@@ -140,10 +134,9 @@ namespace Code_Rangers_Ehandel
             this.btnBuyQ2.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btnBuyQ2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuyQ2.ForeColor = System.Drawing.Color.Honeydew;
-            this.btnBuyQ2.Location = new System.Drawing.Point(231, 458);
-            this.btnBuyQ2.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuyQ2.Location = new System.Drawing.Point(424, 363);
             this.btnBuyQ2.Name = "btnBuyQ2";
-            this.btnBuyQ2.Size = new System.Drawing.Size(88, 35);
+            this.btnBuyQ2.Size = new System.Drawing.Size(66, 28);
             this.btnBuyQ2.TabIndex = 67;
             this.btnBuyQ2.Text = "buy";
             this.btnBuyQ2.UseVisualStyleBackColor = false;
@@ -154,10 +147,9 @@ namespace Code_Rangers_Ehandel
             this.btnBuyQ1.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btnBuyQ1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuyQ1.ForeColor = System.Drawing.Color.Honeydew;
-            this.btnBuyQ1.Location = new System.Drawing.Point(44, 458);
-            this.btnBuyQ1.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBuyQ1.Location = new System.Drawing.Point(284, 363);
             this.btnBuyQ1.Name = "btnBuyQ1";
-            this.btnBuyQ1.Size = new System.Drawing.Size(88, 35);
+            this.btnBuyQ1.Size = new System.Drawing.Size(66, 28);
             this.btnBuyQ1.TabIndex = 66;
             this.btnBuyQ1.Text = "buy";
             this.btnBuyQ1.UseVisualStyleBackColor = false;
@@ -168,10 +160,9 @@ namespace Code_Rangers_Ehandel
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Honeydew;
-            this.label14.Location = new System.Drawing.Point(421, 433);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(567, 343);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(30, 20);
+            this.label14.Size = new System.Drawing.Size(25, 17);
             this.label14.TabIndex = 65;
             this.label14.Text = "LP";
             // 
@@ -180,10 +171,9 @@ namespace Code_Rangers_Ehandel
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Honeydew;
-            this.label13.Location = new System.Drawing.Point(232, 433);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(425, 343);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(83, 20);
+            this.label13.Size = new System.Drawing.Size(70, 17);
             this.label13.TabIndex = 64;
             this.label13.Text = "Download";
             // 
@@ -192,10 +182,9 @@ namespace Code_Rangers_Ehandel
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Honeydew;
-            this.label12.Location = new System.Drawing.Point(41, 437);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(282, 343);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(34, 20);
+            this.label12.Size = new System.Drawing.Size(27, 17);
             this.label12.TabIndex = 63;
             this.label12.Text = "CD";
             // 
@@ -204,10 +193,9 @@ namespace Code_Rangers_Ehandel
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Honeydew;
-            this.label10.Location = new System.Drawing.Point(421, 411);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(567, 325);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(127, 20);
+            this.label10.Size = new System.Drawing.Size(106, 17);
             this.label10.TabIndex = 62;
             this.label10.Text = "A Kind of Magic";
             // 
@@ -216,10 +204,9 @@ namespace Code_Rangers_Ehandel
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Honeydew;
-            this.label11.Location = new System.Drawing.Point(421, 389);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(567, 307);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(58, 20);
+            this.label11.Size = new System.Drawing.Size(51, 17);
             this.label11.TabIndex = 61;
             this.label11.Text = "Queen";
             // 
@@ -228,10 +215,9 @@ namespace Code_Rangers_Ehandel
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Honeydew;
-            this.label4.Location = new System.Drawing.Point(232, 411);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(425, 325);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 20);
+            this.label4.Size = new System.Drawing.Size(74, 17);
             this.label4.TabIndex = 60;
             this.label4.Text = "Hot Space";
             // 
@@ -240,10 +226,9 @@ namespace Code_Rangers_Ehandel
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Honeydew;
-            this.label5.Location = new System.Drawing.Point(232, 389);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(425, 307);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 20);
+            this.label5.Size = new System.Drawing.Size(51, 17);
             this.label5.TabIndex = 59;
             this.label5.Text = "Queen";
             // 
@@ -252,10 +237,9 @@ namespace Code_Rangers_Ehandel
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Honeydew;
-            this.label3.Location = new System.Drawing.Point(41, 411);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(282, 325);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(147, 20);
+            this.label3.Size = new System.Drawing.Size(123, 17);
             this.label3.TabIndex = 58;
             this.label3.Text = "News of the World";
             // 
@@ -264,10 +248,9 @@ namespace Code_Rangers_Ehandel
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Honeydew;
-            this.label2.Location = new System.Drawing.Point(41, 389);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(282, 307);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 20);
+            this.label2.Size = new System.Drawing.Size(51, 17);
             this.label2.TabIndex = 57;
             this.label2.Text = "Queen";
             // 
@@ -277,10 +260,9 @@ namespace Code_Rangers_Ehandel
             this.register.BackColor = System.Drawing.Color.Transparent;
             this.register.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.register.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.register.Location = new System.Drawing.Point(784, 521);
-            this.register.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.register.Location = new System.Drawing.Point(839, 493);
             this.register.Name = "register";
-            this.register.Size = new System.Drawing.Size(78, 28);
+            this.register.Size = new System.Drawing.Size(63, 21);
             this.register.TabIndex = 56;
             this.register.Text = "register";
             this.register.Click += new System.EventHandler(this.register_Click);
@@ -291,10 +273,9 @@ namespace Code_Rangers_Ehandel
             this.login.BackColor = System.Drawing.Color.Transparent;
             this.login.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.login.Location = new System.Drawing.Point(729, 521);
-            this.login.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.login.Location = new System.Drawing.Point(788, 493);
             this.login.Name = "login";
-            this.login.Size = new System.Drawing.Size(57, 28);
+            this.login.Size = new System.Drawing.Size(45, 21);
             this.login.TabIndex = 55;
             this.login.Text = "login";
             this.login.Click += new System.EventHandler(this.login_Click);
@@ -303,10 +284,9 @@ namespace Code_Rangers_Ehandel
             // 
             this.btnShowCart.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btnShowCart.ForeColor = System.Drawing.Color.Honeydew;
-            this.btnShowCart.Location = new System.Drawing.Point(775, 73);
-            this.btnShowCart.Margin = new System.Windows.Forms.Padding(4);
+            this.btnShowCart.Location = new System.Drawing.Point(838, 63);
             this.btnShowCart.Name = "btnShowCart";
-            this.btnShowCart.Size = new System.Drawing.Size(88, 35);
+            this.btnShowCart.Size = new System.Drawing.Size(66, 28);
             this.btnShowCart.TabIndex = 76;
             this.btnShowCart.Text = "show cart";
             this.btnShowCart.UseVisualStyleBackColor = false;
@@ -318,10 +298,9 @@ namespace Code_Rangers_Ehandel
             this.home.BackColor = System.Drawing.Color.Transparent;
             this.home.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.home.Location = new System.Drawing.Point(792, 27);
-            this.home.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.home.Location = new System.Drawing.Point(854, 28);
             this.home.Name = "home";
-            this.home.Size = new System.Drawing.Size(62, 28);
+            this.home.Size = new System.Drawing.Size(50, 21);
             this.home.TabIndex = 75;
             this.home.Text = "home";
             this.home.Click += new System.EventHandler(this.home_Click);
@@ -331,18 +310,20 @@ namespace Code_Rangers_Ehandel
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Honeydew;
-            this.label1.Location = new System.Drawing.Point(373, 49);
+            this.label1.Location = new System.Drawing.Point(407, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 29);
+            this.label1.Size = new System.Drawing.Size(74, 24);
             this.label1.TabIndex = 77;
             this.label1.Text = "records";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Code_Rangers_Ehandel.Properties.Resources.Queen_A_Kind_Of_Magic;
-            this.pictureBox3.Location = new System.Drawing.Point(420, 234);
+            this.pictureBox3.Location = new System.Drawing.Point(566, 181);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(141, 139);
+            this.pictureBox3.Size = new System.Drawing.Size(106, 113);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 74;
             this.pictureBox3.TabStop = false;
@@ -350,9 +331,10 @@ namespace Code_Rangers_Ehandel
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Code_Rangers_Ehandel.Properties.Resources.Queen_Hot_Space;
-            this.pictureBox2.Location = new System.Drawing.Point(231, 234);
+            this.pictureBox2.Location = new System.Drawing.Point(424, 181);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(141, 139);
+            this.pictureBox2.Size = new System.Drawing.Size(106, 113);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 73;
             this.pictureBox2.TabStop = false;
@@ -360,19 +342,20 @@ namespace Code_Rangers_Ehandel
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Code_Rangers_Ehandel.Properties.Resources.Queen_News_Of_The_World;
-            this.pictureBox1.Location = new System.Drawing.Point(44, 234);
+            this.pictureBox1.Location = new System.Drawing.Point(284, 181);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(141, 139);
+            this.pictureBox1.Size = new System.Drawing.Size(106, 113);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 72;
             this.pictureBox1.TabStop = false;
             // 
             // RecordsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(901, 591);
+            this.ClientSize = new System.Drawing.Size(933, 543);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnShowCart);
             this.Controls.Add(this.home);
@@ -398,7 +381,9 @@ namespace Code_Rangers_Ehandel
             this.Controls.Add(this.login);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "RecordsForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RecordsForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

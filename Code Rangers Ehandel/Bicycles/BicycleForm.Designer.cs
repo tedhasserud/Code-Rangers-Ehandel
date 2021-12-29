@@ -374,6 +374,7 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.InactiveBorder;
             this.Name = "BicycleForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BicycleForm";
             this.Load += new System.EventHandler(this.BicycleForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

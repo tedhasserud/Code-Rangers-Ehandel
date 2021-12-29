@@ -22,17 +22,19 @@ namespace Code_Rangers_Ehandel
         private void btnCreditCard_Click(object sender, EventArgs e)
         {
             paymentContext.Pay(new CreditCard());
+            this.Close();
         }
 
         private void btnSwish_Click(object sender, EventArgs e)
         {
             paymentContext.Pay(new Swish());
+            this.Close();
         }
 
         private void btnInvoice_Click(object sender, EventArgs e)
         {
             paymentContext.Pay(new Invoice());
-
+            this.Close();
         }
     }
 }

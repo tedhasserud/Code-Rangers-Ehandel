@@ -50,6 +50,7 @@ namespace Code_Rangers_Ehandel
         {
             CheckoutForm checkOut = new CheckoutForm();
             checkOut.Show();
+            this.Close();
         }
     }
 

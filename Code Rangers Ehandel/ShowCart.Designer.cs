@@ -38,11 +38,10 @@
             // 
             this.listBox1.Font = new System.Drawing.Font("Ebrima", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 19;
             this.listBox1.Location = new System.Drawing.Point(32, 37);
             this.listBox1.Margin = new System.Windows.Forms.Padding(4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(282, 327);
+            this.listBox1.Size = new System.Drawing.Size(282, 316);
             this.listBox1.TabIndex = 0;
             // 
             // button1
@@ -83,7 +82,7 @@
             // 
             // ShowCart
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(353, 509);
@@ -95,6 +94,7 @@
             this.ForeColor = System.Drawing.Color.Honeydew;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ShowCart";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ShowCart";
             this.ResumeLayout(false);
 
