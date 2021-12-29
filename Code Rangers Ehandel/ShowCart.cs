@@ -45,6 +45,12 @@ namespace Code_Rangers_Ehandel
                 }
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CheckoutForm checkOut = new CheckoutForm();
+            checkOut.Show();
+        }
     }
 
       
