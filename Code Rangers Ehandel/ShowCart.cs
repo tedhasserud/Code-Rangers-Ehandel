@@ -54,11 +54,11 @@ namespace Code_Rangers_Ehandel
         public void RemoveItem()
         {
             var selectedItem = listBox1.SelectedItem.ToString();
-            var items = User.getUser().ActiveCart;
+            var itemName = selectedItem.Substring(0, selectedItem.IndexOf(":")).Trim();
 
             foreach (var item in User.getUser().ActiveCart)
             {
-                if (item.Name.Contains(selectedItem) || item.Price >= 0)
+                if (item.Name.Contains(itemName))
                 {
                     User.getUser().ActiveCart.Remove(item);
                     listBox1.Items.Remove(selectedItem);
