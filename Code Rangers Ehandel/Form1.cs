@@ -73,7 +73,7 @@ namespace Code_Rangers_Ehandel
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            everythingFacade.CloseApp();
+            MessageBox.Show(everythingFacade.CloseApp("Ted"));
         }
     }
 }

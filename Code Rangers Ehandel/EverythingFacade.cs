@@ -32,11 +32,12 @@ namespace Code_Rangers_Ehandel
             return "Welcome to eVerything " + user + "!";
         }
 
-        public void CloseApp()
+        public string CloseApp(string user)
         {
             MessageBox.Show(("Shutting down service..."));
             Lights.Off();
-            MessageBox.Show(("Thanks for using eVerything!"));
+            //MessageBox.Show(("Thanks for using eVerything " + user + "!"));
+            return "Thanks for using eVerything " + user + "!";
         }
     }
 }
