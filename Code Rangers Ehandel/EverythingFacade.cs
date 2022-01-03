@@ -36,7 +36,6 @@ namespace Code_Rangers_Ehandel
         {
             MessageBox.Show(("Shutting down service..."));
             Lights.Off();
-            //MessageBox.Show(("Thanks for using eVerything " + user + "!"));
             return "Thanks for using eVerything " + user + "!";
         }
     }
