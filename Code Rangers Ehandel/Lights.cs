@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Code_Rangers_Ehandel
 {
@@ -15,12 +16,12 @@ namespace Code_Rangers_Ehandel
 
         public void On()
         {
-            Console.WriteLine("Turning on background lights: Green");
+            MessageBox.Show(("Turning on background lights..."));
         }
 
         public void Off()
         {
-            Console.WriteLine("Shutting down lights");
+            MessageBox.Show(("Turning off lights..."));
         }
     }
 }

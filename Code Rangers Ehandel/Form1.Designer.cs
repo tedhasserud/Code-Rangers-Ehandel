@@ -404,7 +404,7 @@ namespace Code_Rangers_Ehandel
             this.button5.Font = new System.Drawing.Font("Ebrima", 12F);
             this.button5.ForeColor = System.Drawing.Color.Honeydew;
             this.button5.Location = new System.Drawing.Point(56, 584);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(88, 35);
             this.button5.TabIndex = 56;
@@ -454,6 +454,7 @@ namespace Code_Rangers_Ehandel
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

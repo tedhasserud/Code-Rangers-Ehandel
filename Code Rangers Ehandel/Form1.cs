@@ -14,10 +14,7 @@ namespace Code_Rangers_Ehandel
     public partial class Form1 : Form
     {
         EverythingFacade everythingFacade;
-        Categories categories;
-        Images images;
-        Lights lights;
-        User user;
+       
 
         public Form1(Categories categories, Images images, Lights lights, User user)
         {
@@ -72,6 +69,11 @@ namespace Code_Rangers_Ehandel
         {
             MonitorForm monitorForm = new MonitorForm();
             monitorForm.Show();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            everythingFacade.CloseApp();
         }
     }
 }
