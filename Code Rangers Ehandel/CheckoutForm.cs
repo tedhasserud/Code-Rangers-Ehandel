@@ -17,21 +17,25 @@ namespace Code_Rangers_Ehandel
         {
             InitializeComponent();
             paymentContext = new PaymentContext();
+
         }
 
         private void btnCreditCard_Click(object sender, EventArgs e)
         {
-            paymentContext.Pay(new CreditCard());
+            paymentContext.SetPaymentStrategy(new CreditCard());
+            paymentContext.Pay();
         }
 
         private void btnSwish_Click(object sender, EventArgs e)
         {
-            paymentContext.Pay(new Swish());
+            paymentContext.SetPaymentStrategy(new Swish());
+            paymentContext.Pay();
         }
 
         private void btnInvoice_Click(object sender, EventArgs e)
         {
-            paymentContext.Pay(new Invoice());
+            paymentContext.SetPaymentStrategy(new Invoice());
+            paymentContext.Pay();
 
         }
     }

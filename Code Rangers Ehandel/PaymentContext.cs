@@ -8,10 +8,14 @@ namespace Code_Rangers_Ehandel
 {
     class PaymentContext
     {
-
-        public void Pay(IPaymentStrategy paymentStrategy)
+        private IPaymentStrategy PaymentStrategy;
+        public void SetPaymentStrategy(IPaymentStrategy strategy)
         {
-            paymentStrategy.Pay();
+            this.PaymentStrategy = strategy;
+        }
+        public void Pay()
+        {
+            PaymentStrategy.Pay();
         }
     }
 }
