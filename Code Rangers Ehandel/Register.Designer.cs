@@ -174,6 +174,7 @@
             this.Controls.Add(this.textBox1);
             this.ForeColor = System.Drawing.Color.Honeydew;
             this.Name = "Register";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
             this.ResumeLayout(false);
             this.PerformLayout();

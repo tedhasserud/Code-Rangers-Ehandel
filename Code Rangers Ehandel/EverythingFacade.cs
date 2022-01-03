@@ -25,22 +25,18 @@ namespace Code_Rangers_Ehandel
         public string StartApp(string user)
         {
             MessageBox.Show(("Adjusting all settings.."));
-            Categories.LoadCategories("books", "movies", "bicycles","records", "monitors");
+            Categories.LoadCategories("books", "movies", "bicycles", "records", "monitors");
             Images.Load();
             Lights.On();
-
-            //ShowCart showCart = new ShowCart();
-
-            User.getUser(user);
-            
+            User.getUser(user);            
             return "Welcome to eVerything " + user + "!";
         }
 
         public void CloseApp()
         {
-            Console.WriteLine("Shutting down service...");
+            MessageBox.Show(("Shutting down service..."));
             Lights.Off();
-            Console.WriteLine("Thanks for using eVerything!");
+            MessageBox.Show(("Thanks for using eVerything!"));
         }
     }
 }

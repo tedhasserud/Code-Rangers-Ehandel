@@ -24,19 +24,21 @@ namespace Code_Rangers_Ehandel
         {
             paymentContext.SetPaymentStrategy(new CreditCard());
             paymentContext.Pay();
+            this.Close();
         }
 
         private void btnSwish_Click(object sender, EventArgs e)
         {
             paymentContext.SetPaymentStrategy(new Swish());
             paymentContext.Pay();
+            this.Close();
         }
 
         private void btnInvoice_Click(object sender, EventArgs e)
         {
             paymentContext.SetPaymentStrategy(new Invoice());
             paymentContext.Pay();
-
+            this.Close();
         }
     }
 }

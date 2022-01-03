@@ -15,12 +15,31 @@ namespace Code_Rangers_Ehandel
         public ShowCart()
         {
             InitializeComponent();
+            GetItems();
+            GetPrice();
+        }
+
+
+        private void GetItems()
+        {
+            foreach (var item in User.getUser().ActiveCart)
+            {
+                listBox1.Items.Add(item.Name + " : " + item.Price + "$");
+            }
+        }
+
+        private void GetPrice()
+        {
+            float sum = 0;
 
             foreach (var item in User.getUser().ActiveCart)
             {
-                listBox1.Items.Add(item.Name);
+                sum = sum += item.Price;
             }
+            label1.Text = sum.ToString() + "$";
         }
+
+
         private void ok_click(object sender, EventArgs e)
         {
             this.Close();
@@ -29,15 +48,17 @@ namespace Code_Rangers_Ehandel
         private void RemoveItemBtn_Click(object sender, EventArgs e)
         {
             RemoveItem();
+            GetPrice();
         }
 
         public void RemoveItem()
         {
             var selectedItem = listBox1.SelectedItem.ToString();
+            var itemName = selectedItem.Substring(0, selectedItem.IndexOf(":")).Trim();
 
             foreach (var item in User.getUser().ActiveCart)
             {
-                if (item.Name.Contains(selectedItem))
+                if (item.Name.Contains(itemName))
                 {
                     User.getUser().ActiveCart.Remove(item);
                     listBox1.Items.Remove(selectedItem);
@@ -50,6 +71,7 @@ namespace Code_Rangers_Ehandel
         {
             CheckoutForm checkOut = new CheckoutForm();
             checkOut.Show();
+            this.Close();
         }
     }
 

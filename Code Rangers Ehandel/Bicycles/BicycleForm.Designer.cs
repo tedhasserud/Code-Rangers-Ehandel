@@ -54,6 +54,7 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.buyBikeTwo = new System.Windows.Forms.Button();
             this.buyBikeThree = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -340,6 +341,16 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Ebrima", 9.75F);
+            this.label16.Location = new System.Drawing.Point(864, 391);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(47, 17);
+            this.label16.TabIndex = 80;
+            this.label16.Text = "1120 $";
+            // 
             // BicycleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -350,6 +361,7 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.Controls.Add(this.buyBikeThree);
             this.Controls.Add(this.buyBikeTwo);
             this.Controls.Add(this.buyBikeOne);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label9);
@@ -374,6 +386,7 @@ namespace Code_Rangers_Ehandel.Bicycles
             this.Font = new System.Drawing.Font("Ebrima", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.InactiveBorder;
             this.Name = "BicycleForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BicycleForm";
             this.Load += new System.EventHandler(this.BicycleForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -411,5 +424,6 @@ namespace Code_Rangers_Ehandel.Bicycles
         private System.Windows.Forms.Button buyBikeTwo;
         private System.Windows.Forms.Button buyBikeThree;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label16;
     }
 }
